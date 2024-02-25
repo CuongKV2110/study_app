@@ -1,0 +1,44 @@
+name: study_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc:
+  freezed_annotation:
+  json_annotation:
+  dio:
+  get_it:
+  shared_preferences:
+  flutter_svg:
+  cached_network_image: ^3.2.3
+  flutter_config: ^2.0.2
+  loading_overlay: ^0.3.0
+  flutter_spinkit: ^5.1.0
+  ionicons: ^0.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner:
+  flutter_gen_runner:
+  json_serializable:
+
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  #run command line to build model json
+  #flutter pub run build_runner build --delete-conflicting-outputs
